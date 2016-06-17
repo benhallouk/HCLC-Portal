@@ -63,7 +63,7 @@ we recommend you to keep up to date with the following guidelines:
 # Git Flow
 As a developers who have strong preference for Agile methodologies, in particular Scrum, we 
 we choose Gitflow to improve our work team.
-![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
+![alt tag](https://raw.githubusercontent.com/benhallouk/hackney-portal/master/src/workflow.png)
 
 # Code of Connduct
 
