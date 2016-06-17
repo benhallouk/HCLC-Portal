@@ -42,7 +42,7 @@ Each of these problems were fed into our 3 hour iteration with a working solutio
 # Get Involved
 
 As a Fresh Innovate team, we highly believe in social coding and open collaboration.
-We would like to encourage any of the GitHub developers to contribute to Demo 2 Project.
+We would like to encourage any of the GitHub developers to contribute to hackney-portal.
 
 # Contribute
 
@@ -63,11 +63,11 @@ we recommend you to keep up to date with the following guidelines:
 # Git Flow
 As a developers who have strong preference for Agile methodologies, in particular Scrum, we 
 we choose Gitflow to improve our work team.
-![alt tag](https://raw.githubusercontent.com/benhallouk/hackney-portal/master/src/workflow.png)
+![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
 
 # Code of Connduct
 
-As contributors and maintainers of the Demo 2 project, we pledge to respect everyone who contributes 
+As contributors and maintainers of the hackney-portal, we pledge to respect everyone who contributes 
 by posting issues, updating documentation, submitting pull requests, providing feedback in comments, 
 and any other activities.
 
