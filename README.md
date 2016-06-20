@@ -36,11 +36,6 @@ Each of these problems were fed into our 3 hour iteration with a working solutio
 12. Analytics
 13. Adding new client by admins
 
-###  Git Flow
-As a  organisation who have strong preference for Agile methodologies, in particular Scrum, we 
-we choose Gitflow to improve our work team.
-
-![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
 
 # Contributing to Hackney Portal
 
@@ -273,3 +268,5 @@ reference GitHub issues that this commit **Closes**.
 [angularjs-style-guide]: https://google.github.io/styleguide/angularjs-google-style.html
 [aspnet-style-guide]: https://google.github.io/styleguide/angularjs-google-style.html
 [csharp-style-guide]: https://msdn.microsoft.com/en-gb/library/ff926074.aspx
+
+
