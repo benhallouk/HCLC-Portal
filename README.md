@@ -47,6 +47,12 @@ We would like to encourage any of the GitHub developers to contribute to hackney
 By contributing to Hackney-Portal Project, you will be a valued member of passionate team, we would like you to follow best coding practices as we do 
 and use the latest and gratest technology as we do.
 
+###  Git Flow
+As a developers who have strong preference for Agile methodologies, in particular Scrum, we 
+we choose Gitflow to improve our work team.
+
+![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
+
 ### How to contribute?
 * Before starting work on a new feature, enhancement, or fix, please create an issue and optionally assign it to yourself or a developer.
 * Fork the repository and make your changes against the 'development' branch (not master).
@@ -55,12 +61,6 @@ and use the latest and gratest technology as we do.
 * Issue a Pull Request against the 'development' branch (not master).
 * The admins will review your code and may optionally request conformance, functional or other changes. Work with them to resolve any issues.
 * Upon acceptance, your code will be merged into the master branch and will become available for all.
-
-###  Git Flow
-As a developers who have strong preference for Agile methodologies, in particular Scrum, we 
-we choose Gitflow to improve our work team.
-
-![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
 
 ### Feature Requests
 You can request a new feature by submitting an issue to our GitHub Repository. If you would like to implement a new feature, please submit an issue with a proposal for your work first.
