@@ -39,15 +39,15 @@ Each of these problems were fed into our 3 hour iteration with a working solutio
 12. Analytics
 13. Adding new client by admins
 
-# Get Involved
-
+# How can I get involved
 As a Fresh Innovate team, we highly believe in social coding and open collaboration.
-We would like to encourage any of the GitHub developers to contribute to hackney-portal.
+We would like to encourage any of the GitHub developers to contribute to hackney-Portal Project.
 
 # Contribute
-
-If you are interested in contributing, we would like you to follow best coding practices as we do 
+By contributing to Hackney-Portal Project, you will be a valued member of passionate team, we would like you to follow best coding practices as we do 
 and use the latest and gratest technology as we do.
+
+# Learn more about how we collaborate using Github:
 
 # Code Standards
 
@@ -61,13 +61,14 @@ we recommend you to keep up to date with the following guidelines:
 - [C# Programming Guide][csharp-style-guide]
 
 # Git Flow
-As a developers who have strong preference for Agile methodologies, in particular Scrum, we 
+As a developers who have strong preference for Agile methodologies, in particular Scrum,
 we choose Gitflow to improve our work team.
+
 ![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
 
 # Code of Connduct
 
-As contributors and maintainers of the hackney-portal, we pledge to respect everyone who contributes 
+As contributors and maintainers of the Demo 2 project, we pledge to respect everyone who contributes 
 by posting issues, updating documentation, submitting pull requests, providing feedback in comments, 
 and any other activities.
 
