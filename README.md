@@ -69,7 +69,7 @@ For a Major Feature, first open an issue and outline your proposal so that it ca
 Small Features can be crafted and directly submitted as a Pull Request.
 
 ### Submitting an Issue
-Before you submit an issue, search the archive, maybe your question was already answered.
+Before you submit an issue, search Github, maybe your question was already answered.
 
 If your issue appears to be a bug, and hasn't been reported, open a new issue. Help us to maximize the effort we can spend fixing issues and adding new features, by not reporting duplicate issues. Providing the following information will increase the chances of your issue being dealt with quickly:
 
@@ -85,14 +85,14 @@ You may run into a bug when using Hackney-Portal. If you find a bug in the sourc
 
 Before you submit your Pull Request (PR) consider the following guidelines:
 
- - Search GitHub for an open or closed PR that relates to your submission. You don't want to duplicate effort.
+ * Search GitHub for an open or closed PR that relates to your submission. You don't want to duplicate effort.
 
-  - Make your changes in a new git branch:
+  * Make your changes in a new git branch:
   ```sh
       git checkout -b my-fix-branch master
 ```
- - Create your patch, including appropriate test cases.
- - Commit your changes using a descriptive commit message 
+ * Create your patch, including appropriate test cases.
+ * Commit your changes using a descriptive commit message 
 ```sh
     git commit -a
 ```
@@ -100,6 +100,10 @@ Push your branch to GitHub:
 ```sh
     git push origin my-fix-branch
 ```
+* If we suggest changes then:
+  - Make the required updates.
+  - Re-run the Hackney Portal test suites
+
 ###  Code Standards
 
 To ensure quality and consistency throughout the project source code, 
