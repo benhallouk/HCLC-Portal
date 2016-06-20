@@ -101,7 +101,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 ```sh
     git commit -a
 ```
-Push your branch to GitHub:
+ * Push your branch to GitHub:
 ```sh
     git push origin my-fix-branch
 ```
