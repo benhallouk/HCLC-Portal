@@ -63,11 +63,12 @@ we choose Gitflow to improve our work team.
 * Upon acceptance, your code will be merged into the master branch and will become available for all.
 
 ### Feature Requests
-You can request a new feature by submitting an issue to our GitHub Repository. If you would like to implement a new feature, please submit an issue with a proposal for your work first.
+You can request a new feature by submitting an issue to our [GitHub Repository](https://github.com/fresh-innovate/HCLC-Portal). If you would like to implement a new feature, please submit an issue with a proposal for your work first.
 
-For a Major Feature, first open an issue and outline your proposal so that it can be discussed. This will also allow us to better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project.
-Small Features can be crafted and directly submitted as a Pull Request.
+* For a Major Feature, first open an issue and outline your proposal so that it can be discussed. This will also allow us to better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project.
+* Small Features can be crafted and directly submitted as a Pull Request.
 
+# Submission Guidelines
 ### Submitting an Issue
 Before you submit an issue, search Github, maybe your question was already answered.
 
@@ -80,6 +81,10 @@ You can file new issues by providing the above information
 ### Bug Reports
 
 You may run into a bug when using Hackney-Portal. If you find a bug in the source code or a mistake in the documentation, you can help us by submitting an issue to our GitHub Repository. Even better, you can submit a Pull Request with a fix.
+
+### Found an Issue?
+
+If you find a bug in the source code or a mistake in the documentation, you can help us by submitting an issue to our [GitHub Repository](https://github.com/fresh-innovate/HCLC-Portal). Even better, you can submit a Pull Request with a fix.
 
 ### Submitting a Pull Request (PR)
 
