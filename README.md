@@ -47,8 +47,6 @@ We would like to encourage any of the GitHub developers to contribute to hackney
 By contributing to Hackney-Portal Project, you will be a valued member of passionate team, we would like you to follow best coding practices as we do 
 and use the latest and gratest technology as we do.
 
-# Learn more about how we collaborate using Github:
-
 # Contributing
 This guide is for anyone interested in contributing to Hackney-Portal.
 
