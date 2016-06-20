@@ -39,21 +39,21 @@ Each of these problems were fed into our 3 hour iteration with a working solutio
 12. Analytics
 13. Adding new client by admins
 
-# How can I get involved
+###  How can I get involved
 As a Fresh Innovate team, we highly believe in social coding and open collaboration.
 We would like to encourage any of the GitHub developers to contribute to hackney-portal Project.
 
-# Contribute
+###  Contribute
 By contributing to Hackney-Portal Project, you will be a valued member of passionate team, we would like you to follow best coding practices as we do 
 and use the latest and gratest technology as we do.
 
-# Contributing
+###  Contributing
 This guide is for anyone interested in contributing to Hackney-Portal.
 
-# Feature Requests
+###  Feature Requests
 To request a change to any components of the Hackney-Portal such as adding a new features, or suggesting a new piece of functionality, crreate a repo for the feature
 
-# Code Standards
+###  Code Standards
 
 To ensure quality and consistency throughout the project source code, 
 we recommend you to keep up to date with the following guidelines:
@@ -64,23 +64,23 @@ we recommend you to keep up to date with the following guidelines:
 - [ASP.NET Doc Style Guide][aspnet-style-guide] 
 - [C# Programming Guide][csharp-style-guide]
 
-# Git Flow
+###  Git Flow
 As a developers who have strong preference for Agile methodologies, in particular Scrum, we 
 we choose Gitflow to improve our work team.
 
 ![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
 
-# Code of Connduct
+###  Code of Connduct
 
 As contributors and maintainers of the hackney-portal project, we pledge to respect everyone who contributes 
 by posting issues, updating documentation, submitting pull requests, providing feedback in comments, 
 and any other activities.
 
-# Purpose
+###  Purpose
 
 The core of the hackney community is the people in it. Our main goal is to ensure this community is as inclusive to the largest number of people, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, this includes, but is not limited to members or contributors of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
 
-# We strives to:
+###  We strives to:
 
 - Be friendly and patient.
 - Be welcoming: We strive to be a team that welcomes and supports people of all backgrounds and identities. 
@@ -90,18 +90,18 @@ The core of the hackney community is the people in it. Our main goal is to ensur
 - Be careful in the words that we choose: we are teams of professionals, and we conduct ourselves professionally. Be kind to others. Do not insult or put down other participants. Harassment and other exclusionary behavior aren’t acceptable.
 - Try to understand why we disagree: Disagreements, both social and technical, happen all the time. It is important that we resolve disagreements and differing views constructively, we are from a wide range of backgrounds. Different people have different perspectives on issues. Being unable to understand why someone holds a viewpoint doesn’t mean that they’re wrong. Don’t forget that it is human to err and blaming each other doesn’t get us anywhere. Instead, focus on helping to resolve issues and learning from mistakes.
 
-# Diversity Statement
+###  Diversity Statement
 
 We encourage everyone to participate. Although we will fail at times, we seek to treat everyone both as fairly and equally as possible. Whenever a contributors has made a mistake, we expect them to take responsibility for it. If someone has been harmed or offended, it is our responsibility to listen carefully and respectfully, and do our best to right the wrong.
 
-Reporting Issues
+### Reporting Issues
 
 If you experience or witness unacceptable behavior—or have any other concerns—please report it by contact fresh-innovate (Web team)
 
-# Unacceptable Behavior
+###  Unacceptable Behavior
 Unacceptable behaviors include: intimidating, harassing, abusive, discriminatory, derogatory or demeaning speech, actions, or microaggressions by any contributor.
 
-# Harassment
+###  Harassment
 Harassment includes: harmful or prejudicial verbal or written comments related to gender, sexual orientation, race, religion, disability; inappropriate use of nudity and/or sexual images in public spaces (including presentation slides); deliberate intimidation, stalking or following; harassing photography or recording; sustained disruption of talks or other events; inappropriate physical contact, and unwelcome sexual attention.
 
 [html-css-style-guide]: https://google.github.io/styleguide/htmlcssguide.xml
