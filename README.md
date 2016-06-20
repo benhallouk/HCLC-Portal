@@ -39,20 +39,67 @@ Each of these problems were fed into our 3 hour iteration with a working solutio
 12. Analytics
 13. Adding new client by admins
 
-###  How can I get involved
+### How can I get involved
 As a Fresh Innovate team, we highly believe in social coding and open collaboration.
 We would like to encourage any of the GitHub developers to contribute to hackney-portal Project.
 
-###  Contribute
+### Contribute
 By contributing to Hackney-Portal Project, you will be a valued member of passionate team, we would like you to follow best coding practices as we do 
 and use the latest and gratest technology as we do.
 
-###  Contributing
-This guide is for anyone interested in contributing to Hackney-Portal.
+### How to contribute?
+* Before starting work on a new feature, enhancement, or fix, please create an issue and optionally assign it to yourself or a developer.
+* Fork the repository and make your changes against the 'development' branch (not master).
+* After making your changes in your fork, run tests and ensure that the page looks good and works with all supported browsers.
+* If you have made a series of commits into the 'development' branch, please try to squash them into a small number of commits.
+* Issue a Pull Request against the 'development' branch (not master).
+* The admins will review your code and may optionally request conformance, functional or other changes. Work with them to resolve any issues.
+* Upon acceptance, your code will be merged into the master branch and will become available for all.
 
-###  Feature Requests
-To request a change to any components of the Hackney-Portal such as adding a new features, or suggesting a new piece of functionality, crreate a repo for the feature
+###  Git Flow
+As a developers who have strong preference for Agile methodologies, in particular Scrum, we 
+we choose Gitflow to improve our work team.
 
+![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
+
+### Feature Requests
+You can request a new feature by submitting an issue to our GitHub Repository. If you would like to implement a new feature, please submit an issue with a proposal for your work first.
+
+For a Major Feature, first open an issue and outline your proposal so that it can be discussed. This will also allow us to better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project.
+Small Features can be crafted and directly submitted as a Pull Request.
+
+### Submitting an Issue
+Before you submit an issue, search the archive, maybe your question was already answered.
+
+If your issue appears to be a bug, and hasn't been reported, open a new issue. Help us to maximize the effort we can spend fixing issues and adding new features, by not reporting duplicate issues. Providing the following information will increase the chances of your issue being dealt with quickly:
+
+* Related Issues - has a similar issue been reported before?
+* Suggest a Fix - if you can't fix the bug yourself, perhaps you can point to what might be causing the problem (line of code or commit)
+You can file new issues by providing the above information 
+
+### Bug Reports
+
+You may run into a bug when using Hackney-Portal. If you find a bug in the source code or a mistake in the documentation, you can help us by submitting an issue to our GitHub Repository. Even better, you can submit a Pull Request with a fix.
+
+### Submitting a Pull Request (PR)
+
+Before you submit your Pull Request (PR) consider the following guidelines:
+
+ - Search GitHub for an open or closed PR that relates to your submission. You don't want to duplicate effort.
+
+  - Make your changes in a new git branch:
+  ```sh
+      git checkout -b my-fix-branch master
+```
+ - Create your patch, including appropriate test cases.
+ - Commit your changes using a descriptive commit message 
+```sh
+    git commit -a
+```
+Push your branch to GitHub:
+```sh
+    git push origin my-fix-branch
+```
 ###  Code Standards
 
 To ensure quality and consistency throughout the project source code, 
@@ -64,13 +111,7 @@ we recommend you to keep up to date with the following guidelines:
 - [ASP.NET Doc Style Guide][aspnet-style-guide] 
 - [C# Programming Guide][csharp-style-guide]
 
-###  Git Flow
-As a developers who have strong preference for Agile methodologies, in particular Scrum, we 
-we choose Gitflow to improve our work team.
-
-![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
-
-###  Code of Connduct
+#  Code of Connduct
 
 As contributors and maintainers of the Hackney Portal project, we pledge to respect everyone who contributes 
 by posting issues, updating documentation, submitting pull requests, providing feedback in comments, 
@@ -82,13 +123,12 @@ The core of the Hackney Portal community is the people in it. Our main goal is t
 
 ###  We strives to:
 
-- Be friendly and patient.
-- Be welcoming: We strive to be a team that welcomes and supports people of all backgrounds and identities. 
-
-- Be considerate: Your work will be used by other people, and you in turn will depend on the work of others. Any decision you take will affect users and colleagues, and you should take those consequences into account when making decisions.
-- Be respectful: Not all of us will agree all the time, but disagreement is no excuse for poor behavior and poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack.
-- Be careful in the words that we choose: we are teams of professionals, and we conduct ourselves professionally. Be kind to others. Do not insult or put down other participants. Harassment and other exclusionary behavior aren’t acceptable.
-- Try to understand why we disagree: Disagreements, both social and technical, happen all the time. It is important that we resolve disagreements and differing views constructively, we are from a wide range of backgrounds. Different people have different perspectives on issues. Being unable to understand why someone holds a viewpoint doesn’t mean that they’re wrong. Don’t forget that it is human to err and blaming each other doesn’t get us anywhere. Instead, focus on helping to resolve issues and learning from mistakes.
+* Be friendly and patient.
+* Be welcoming: We strive to be a team that welcomes and supports people of all backgrounds and identities. 
+* Be considerate: Your work will be used by other people, and you in turn will depend on the work of others. Any decision you take will affect users and colleagues, and you should take those consequences into account when making decisions.
+* Be respectful: Not all of us will agree all the time, but disagreement is no excuse for poor behavior and poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack.
+* Be careful in the words that we choose: we are teams of professionals, and we conduct ourselves professionally. Be kind to others. Do not insult or put down other participants. Harassment and other exclusionary behavior aren’t acceptable.
+* Try to understand why we disagree: Disagreements, both social and technical, happen all the time. It is important that we resolve disagreements and differing views constructively, we are from a wide range of backgrounds. Different people have different perspectives on issues. Being unable to understand why someone holds a viewpoint doesn’t mean that they’re wrong. Don’t forget that it is human to err and blaming each other doesn’t get us anywhere. Instead, focus on helping to resolve issues and learning from mistakes.
 
 ###  Diversity Statement
 
@@ -96,7 +136,7 @@ We encourage everyone to participate. Although we will fail at times, we seek to
 
 ### Reporting Issues
 
-If you experience or witness unacceptable behavior—or have any other concerns—please report it by contact fresh-innovate (Web team)
+If you experience or witness unacceptable behavior—or have any other concerns—please report it by contact Fresh Innovate
 
 ###  Unacceptable Behavior
 Unacceptable behaviors include: intimidating, harassing, abusive, discriminatory, derogatory or demeaning speech, actions, or microaggressions by any contributor.
