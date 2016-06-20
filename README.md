@@ -72,13 +72,13 @@ we choose Gitflow to improve our work team.
 
 ###  Code of Connduct
 
-As contributors and maintainers of the hackney-portal project, we pledge to respect everyone who contributes 
+As contributors and maintainers of the Hackney Portal project, we pledge to respect everyone who contributes 
 by posting issues, updating documentation, submitting pull requests, providing feedback in comments, 
 and any other activities.
 
 ###  Purpose
 
-The core of the hackney community is the people in it. Our main goal is to ensure this community is as inclusive to the largest number of people, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, this includes, but is not limited to members or contributors of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
+The core of the Hackney Portal community is the people in it. Our main goal is to ensure this community is as inclusive to the largest number of people, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, this includes, but is not limited to members or contributors of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
 
 ###  We strives to:
 
