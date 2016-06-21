@@ -1,9 +1,14 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 
 namespace Hackney.Tests.Domains.Models
 {
-    [TestClass]
+    [TestFixture]
     public class NotificationTests
     {
+        [Test]
+        public void Notify()
+        {
+
+        }
     }
 }

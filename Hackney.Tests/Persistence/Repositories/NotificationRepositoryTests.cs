@@ -1,24 +1,21 @@
-﻿using System.Data.Entity;
-using System.Linq;
-using FluentAssertions;
+﻿using FluentAssertions;
 using Hackney.Core.Models;
 using Hackney.Persistence;
 using Hackney.Persistence.Repositories;
 using Hackney.Tests.Extensions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using System.Data.Entity;
+using System.Linq;
 
 namespace Hackney.Tests.Persistence.Repositories
 {
-    [TestClass]
     public class NotificationRepositoryTests
     {
         private NotificationRepository _repository;
         private Mock<DbSet<UserNotification>> _mockNotifications;
         private Notification notification;
 
-        [TestInitialize]
-        public void TestInitialize()
+        public void Init()
         {
             _mockNotifications = new Mock<DbSet<UserNotification>>();
 

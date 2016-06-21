@@ -1,16 +1,16 @@
-﻿using System.Data.Entity.Migrations;
-using System.Linq;
-using Hackney.Core.Models;
+﻿using Hackney.Core.Models;
 using Hackney.Persistence;
 using Hackney.Persistence.Migrations;
 using NUnit.Framework;
+using System.Data.Entity.Migrations;
+using System.Linq;
 
 namespace Hackney.IntergrationTest
 {
     [SetUpFixture]
     public class GlobalSetUp
     {
-        [SetUp]
+        
         public void SetUp()
         {
             MigrateDbToLatestVersion();

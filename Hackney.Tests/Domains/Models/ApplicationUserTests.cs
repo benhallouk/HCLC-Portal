@@ -1,17 +1,18 @@
-﻿using System.Linq;
-using FluentAssertions;
+﻿using FluentAssertions;
 using Hackney.Core.Models;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
+using System.Linq;
 
 namespace Hackney.Tests.Domains.Models
 {
+    [TestFixture]
     public class ApplicationUserTests
     {
         private object notification;
 
-        [TestMethod]
         public void Notify_WhenCalled_ShouldAddTheNotification()
         {
+            
             var user = new ApplicationUser();
 
 
