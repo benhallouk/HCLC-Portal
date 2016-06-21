@@ -53,11 +53,10 @@ today! As a contributor, here are the guidelines we would like you to follow:
  - [Coding Rules](#rules)
  - [Commit Message Guidelines](#commit)
 
+## <a name="coc"></a> Code of Conduct
 As contributors and maintainers of the Hackney Portal, we pledge to respect everyone who contributes 
 by posting issues, updating documentation, submitting pull requests, providing feedback in comments, 
-and any other activities.Please read and follow our [Code of Conduct][coc].
-
-### <a name="coc"></a> Code of Connduct
+and any other activities.Please read and follow our  [Code of Conduct][coc].
 
 
 ### <a name="question"></a> Got a Question or Problem?
@@ -184,8 +183,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 ### <a name="commit"></a> Commit Message Guidelines
 
 We have very precise rules over how our git commit messages can be formatted.  This leads to **more
-readable messages** that are easy to follow when looking through the **project history**.  But also,
-we use the git commit messages to **generate the Angular change log**.
+readable messages** that are easy to follow when looking through the **project history**.
 
 ### Commit Message Format
 Each commit message consists of a **header**, a **body** and a **footer**.  The header has a special
