@@ -24,7 +24,7 @@ Each of these problems were fed into our 3 hour iteration with a working solutio
 ### To implement the final product, the follwoing features and will need to be implemented:
 1. Login/Registration
 2. Translation per language
-3. Live chat with AI]
+3. Live chat with AI
 4. Decision tree per category
 5. Case list / ticket details#
 6. Alerts and notifications (auto/manual)
@@ -56,7 +56,7 @@ today! As a contributor, here are the guidelines we would like you to follow:
 ## <a name="coc"></a> Code of Conduct
 As contributors and maintainers of the Hackney Portal, we pledge to respect everyone who contributes 
 by posting issues, updating documentation, submitting pull requests, providing feedback in comments, 
-and any other activities.Please read and follow our  [Code of Conduct][coc].
+and any other activities.
 
 
 ### <a name="question"></a> Got a Question or Problem?
