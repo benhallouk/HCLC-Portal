@@ -36,11 +36,11 @@ Each of these problems were fed into our 3 hour iteration with a working solutio
 12. Analytics
 13. Adding new client by admins
 
-# How can I get involved
+### How can I get involved
 As organisation, we highly believe in social coding and open collaboration.
 We would like to encourage any of the GitHub developers to contribute to hackney-Portal Project by using Git flow.
 
-# Contributing to Hackney Portal
+### Contributing to Hackney Portal
 
 We would love for you to contribute to Hackney Portal and help make it even better than it is
 today! As a contributor, here are the guidelines we would like you to follow:
@@ -57,19 +57,19 @@ As contributors and maintainers of the Hackney Portal, we pledge to respect ever
 by posting issues, updating documentation, submitting pull requests, providing feedback in comments, 
 and any other activities.Please read and follow our [Code of Conduct][coc].
 
-## <a name="coc"></a> Code of Connduct
+### <a name="coc"></a> Code of Connduct
 
 
-## <a name="question"></a> Got a Question or Problem?
+### <a name="question"></a> Got a Question or Problem?
 
 If you have questions about how to *use* Hackney Portal, please note that Hackney Portal is still in early developer preview, and the core team's capacity to answer usage questions is limited. 
 
-## <a name="issue"></a> Found an Issue?
+### <a name="issue"></a> Found an Issue?
 If you find a bug in the source code or a mistake in the documentation, you can help us by
 [submitting an issue](#submit-issue) to our [GitHub Repository](https://github.com/fresh-innovate/HCLC-Portal). Even better, you can
 [submit a Pull Request](#submit-pr) with a fix.
 
-## <a name="feature"></a> Want a Feature?
+### <a name="feature"></a> Want a Feature?
 You can *request* a new feature by [submitting an issue](#submit-issue) to our [GitHub
 Repository](https://github.com/fresh-innovate/HCLC-Portal). If you would like to *implement* a new feature, please submit an issue with
 a proposal for your work first, to be sure that we can use it. Hackney Portal is in developer preview
@@ -81,7 +81,7 @@ discussed. This will also allow us to better coordinate our efforts, prevent dup
 and help you to craft the change so that it is successfully accepted into the project.
 * **Small Features** can be crafted and directly [submitted as a Pull Request](#submit-pr).
 
-## <a name="submit"></a> Submission Guidelines
+### <a name="submit"></a> Submission Guidelines
 
 ### <a name="submit-issue"></a> Submitting an Issue
 Before you submit an issue, search the archive, maybe your question was already answered.
@@ -173,7 +173,7 @@ from the main (upstream) repository:
     git pull --ff upstream master
     ```
 
-## <a name="rules"></a> Coding Rules
+### <a name="rules"></a> Coding Rules
 To ensure consistency throughout the source code, keep these rules in mind as you are working:
 
 * All features or bug fixes **must be tested** by one or more specs (unit-tests).
@@ -181,7 +181,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 * We follow [Google's JavaScript Style Guide][js-style-guide], but wrap all code at
   **100 characters**.
 
-## <a name="commit"></a> Commit Message Guidelines
+### <a name="commit"></a> Commit Message Guidelines
 
 We have very precise rules over how our git commit messages can be formatted.  This leads to **more
 readable messages** that are easy to follow when looking through the **project history**.  But also,
@@ -269,7 +269,7 @@ reference GitHub issues that this commit **Closes**.
 [runnable]: http://runnable.com
 [stackoverflow]: http://stackoverflow.com/questions/tagged/angular
 
-# Code Standards
+### Code Standards
 To ensure quality and consistency throughout the project source code, 
 we recommend you to keep up to date with the following guidelines:
 
@@ -279,7 +279,7 @@ we recommend you to keep up to date with the following guidelines:
 - [ASP.NET Doc Style Guide][aspnet-style-guide] 
 - [C# Programming Guide][csharp-style-guide]
 
-# Git Flow
+### Git Flow
 As organisation we have strong preference for Agile methodologies, in particular Scrum, we choose Gitflow to improve our work team.Every contributor must use Git flow
 
 ![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
@@ -290,15 +290,10 @@ As organisation we have strong preference for Agile methodologies, in particular
 [aspnet-style-guide]: https://google.github.io/styleguide/angularjs-google-style.html
 [csharp-style-guide]: https://msdn.microsoft.com/en-gb/library/ff926074.aspx
 
-###  Git Flow
-As organisation we strong preference for Agile methodologies, in particular Scrum, we choose Gitflow to improve our work team, please be advsied that every contributor must use Git flow
-
-![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
-
-## Before starting
+### Before starting
 It is **strongly** recommended that you have some basic notions of how git works
 
-Installing git-flow
+### Installing git-flow
 -------------------
 ### How to install in from the source code
 ````
@@ -308,14 +303,13 @@ $ sudo make install
 ````
 This will install git-flow in /usr/local. And we are ready to go.
 
-Initializing git-flow on a newly created repository
+### Initializing git-flow on a newly created repository
 ---------------------------------------------------
 ### Clone it!
 #### Internally hosted repositories
 ````
 $ git clone https://github.com/fresh-innovate/HCLC-Portal
 ````
-
 #### Externally hosted repositories (GitHub)
 The process is exactly the same if the repository was initially available only on GitHub: 
 
@@ -363,11 +357,9 @@ $ git checkout master
 $ git push origin master
 ````
 
-Initializing git-flow on an existing repository
+### Initializing git-flow on an existing repository
 -----------------------------------------------
 You **must** initialize git-flow on your local copy of the repository before start using it. 
-
-
 
 There is one very important fact to keep in mind here. As git-flow **must** be initialized and configured on any repository before being used.
 
@@ -406,30 +398,30 @@ Support branches? [support/]
 Version tag prefix? [] 
 ````
 
-####Commit, commit, commit!
+#### Commit, commit, commit!
 This is more general git good practice but it worth remembering, don't hold the code for yourself for too long, commit it often so it won't cause any conflict later on. 
 
-####Merge, merge, merge!
+#### Merge, merge, merge!
 On the other way around, you always want to have the updates that your team produced merged as soon as possible into your code, so you don't work on top of outdated code. 
 
-####Fetching and pushing
+#### Fetching and pushing
 You might be asking yourself when it's good time to push and when it's good time to fetch... The short answer for that is: always fetch & merge before you push, always commit before you fetch. An simple flow that works well is to `commit (it's ok to hold a couple if they are really small) > fetch > merge > push`. In a real world scenario that should be done like that:
 
-#####Commiting
+##### Commiting
 After staging your changes:
 
 ````
 $ git commit -m "Your commit description"
 ````
 
-#####Fetching (all the remotes!)
+##### Fetching (all the remotes!)
 
 ````
 $ git fetch origin
 $ git fetch github
 ````
 
-#####Merging
+##### Merging
 If after fetching you see that there are changes coming, you need to merge them into your branches.
 ````
 $ git checkout develop
