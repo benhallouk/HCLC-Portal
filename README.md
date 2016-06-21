@@ -36,9 +36,51 @@ Each of these problems were fed into our 3 hour iteration with a working solutio
 12. Analytics
 13. Adding new client by admins
 
-### How can I get involved
-As organisation, we highly believe in social coding and open collaboration.
-We would like to encourage any of the GitHub developers to contribute to hackney-Portal Project by using Git flow.
+### Getting started with this project
+
+This project is using the latest and greatest technologies including:. ASP.NET MVC, Angular 2 with TypeScript, Gulp, Bootstrap and Sass.
+
+To get started you need:
+-------------
+- 10 Minutes or less
+- Video Studio 2015 and Video Studio Code
+- Node.js installed on your machine
+- and the most important Git
+
+Working with the Code 
+-------------
+Clone repository to create a local copy on your computer
+```sh
+git clone https://github.com/fresh-innovate/HCLC-Portal.git
+```
+Install Node and Angular dependencies
+-------------
+Change your current directory to Hackney/Client/Portal/src folder
+```sh
+cd Hackney/Client/portal
+```
+
+All the client depandancies including development tools can be installed using the command bellow:
+```sh
+npm install
+```
+`node_modules` and `typings` directories should be created during the install.
+
+To build portal transpile all typescript and sass with the run command:
+
+```sh
+npm run build
+```
+`portal` directory should be created during the build inside the main HCLC-Portal folder
+
+To start the development
+Go to HCLC-Portal folder and run `Hackney.sln` project file, wait a while `Visual Studio`  install all necessary `packages` and you are ready to do the build.
+
+Then run the command to start the browsersync for pleasant development
+```sh
+npm run start
+```
+The application should be displayed in the browser and the `gulp` tool will watch the client side changes and relead and sync the browser automatically.
 
 ### Contributing to Hackney Portal
 
