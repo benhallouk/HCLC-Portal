@@ -229,7 +229,6 @@ As organisation we have strong preference for Agile methodologies, in particular
 
 ![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
 
-[visual-studio] : https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx
 [html-css-style-guide]: https://google.github.io/styleguide/htmlcssguide.xml
 [js-style-guide]: https://google.github.io/styleguide/javascriptguide.xml
 [angularjs-style-guide]: https://google.github.io/styleguide/angularjs-google-style.html
