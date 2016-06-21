@@ -224,8 +224,11 @@ from the main (upstream) repository:
     git pull --ff upstream master
     ```
 
-### Git Flow
-As organisation we have strong preference for Agile methodologies, in particular Scrum, we choose Gitflow to improve our work team.Every contributor must use Git flow
+### GitFlow
+As organisation we have strong preference for Agile methodologies.  We believe that is very well suited to collaboration and scaling the development team.
+
+#### Collaboration
+Feature branches make life easier for developers to collaborate on the same feature, because each feature branch is a sandbox where the only changes are the changes necessary to get the new feature working. That makes it very easy to see and follow what each collaborator is doing.
 
 ![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
 
@@ -240,6 +243,15 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 * All features or bug fixes **must be tested** by one or more specs (unit-tests).
 * All public API methods **must be documented**. (Details TBC).
+
+To ensure quality and consistency throughout the project source code, 
+we recommend you to keep up to date with the following guidelines:
+
+- [Google HTML/CSS Style Guide][html-css-style-guide]
+- [Google's JavaScript Style Guide][js-style-guide]
+- [Google's AngularJS Style Guide][angularjs-style-guide]
+- [ASP.NET Doc Style Guide][aspnet-style-guide] 
+- [C# Programming Guide][csharp-style-guide]
 
 ### <a name="commit"></a> Commit Message Guidelines
 
@@ -327,13 +339,3 @@ reference GitHub issues that this commit **Closes**.
 [plunker]: http://plnkr.co/edit
 [runnable]: http://runnable.com
 [stackoverflow]: http://stackoverflow.com/questions/tagged/angular
-
-### Code Standards
-To ensure quality and consistency throughout the project source code, 
-we recommend you to keep up to date with the following guidelines:
-
-- [Google HTML/CSS Style Guide][html-css-style-guide]
-- [Google's JavaScript Style Guide][js-style-guide]
-- [Google's AngularJS Style Guide][angularjs-style-guide]
-- [ASP.NET Doc Style Guide][aspnet-style-guide] 
-- [C# Programming Guide][csharp-style-guide]
