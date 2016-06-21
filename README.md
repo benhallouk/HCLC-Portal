@@ -38,14 +38,24 @@ Each of these problems were fed into our 3 hour iteration with a working solutio
 
 ### Getting started with this project
 
-This project is using the latest and greatest technologies including:. ASP.NET MVC, Angular 2 with TypeScript, Gulp, Bootstrap and Sass.
+This project is using the latest and greatest technologies including:. ASP.NET MVC, [Angular 2] with [TypeScript], [Gulp], [Bootstrap] and [Sass].
 
 To get started you need:
 -------------
 - 10 Minutes or less
-- Visual Studio 2015 and Visual Studio Code
-- Node.js installed on your machine
-- and the most important Git
+- [Visual Studio 2015] and [Visual Studio Code]
+- [Node.js] installed on your machine
+- and the most important [Git]
+
+[Visual Studio 2015]: <https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx>
+[Visual Studio Code]: <https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx>
+[Node.js]: <https://nodejs.org/en/>
+[Git]: <https://git-scm.com/downloads>
+[Angular 2]: <https://angular.io/>
+[TypeScript]: <https://www.typescriptlang.org/>
+[Gulp]: <http://gulpjs.com/>
+[Bootstrap]: <http://getbootstrap.com/>
+[Sass]: <http://sass-lang.com/>
 
 Working with the Code 
 -------------
@@ -214,6 +224,18 @@ from the main (upstream) repository:
     git pull --ff upstream master
     ```
 
+### Git Flow
+As organisation we have strong preference for Agile methodologies, in particular Scrum, we choose Gitflow to improve our work team.Every contributor must use Git flow
+
+![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
+
+[visual-studio] : https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx
+[html-css-style-guide]: https://google.github.io/styleguide/htmlcssguide.xml
+[js-style-guide]: https://google.github.io/styleguide/javascriptguide.xml
+[angularjs-style-guide]: https://google.github.io/styleguide/angularjs-google-style.html
+[aspnet-style-guide]: https://google.github.io/styleguide/angularjs-google-style.html
+[csharp-style-guide]: https://msdn.microsoft.com/en-gb/library/ff926074.aspx	
+	
 ### <a name="rules"></a> Coding Rules
 To ensure consistency throughout the source code, keep these rules in mind as you are working:
 
@@ -316,14 +338,3 @@ we recommend you to keep up to date with the following guidelines:
 - [Google's AngularJS Style Guide][angularjs-style-guide]
 - [ASP.NET Doc Style Guide][aspnet-style-guide] 
 - [C# Programming Guide][csharp-style-guide]
-
-### Git Flow
-As organisation we have strong preference for Agile methodologies, in particular Scrum, we choose Gitflow to improve our work team.Every contributor must use Git flow
-
-![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
-
-[html-css-style-guide]: https://google.github.io/styleguide/htmlcssguide.xml
-[js-style-guide]: https://google.github.io/styleguide/javascriptguide.xml
-[angularjs-style-guide]: https://google.github.io/styleguide/angularjs-google-style.html
-[aspnet-style-guide]: https://google.github.io/styleguide/angularjs-google-style.html
-[csharp-style-guide]: https://msdn.microsoft.com/en-gb/library/ff926074.aspx
