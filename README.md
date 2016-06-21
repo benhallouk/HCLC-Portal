@@ -134,7 +134,6 @@ and help you to craft the change so that it is successfully accepted into the pr
 
 ### <a name="submit"></a> Submission Guidelines
 
-### <a name="submit-issue"></a> Submitting an Issue
 Before you submit an issue, search the archive, maybe your question was already answered.
 
 If your issue appears to be a bug, and hasn't been reported, open a new issue.
@@ -154,14 +153,32 @@ You can file new issues by providing the above information [here](https://github
 
 
 ### <a name="submit-pr"></a> Submitting a Pull Request (PR)
+We encourage you to use the gitflow concept that can make parallel development very easy by isolating new development from finished work.
+
+GitFlow is a simple branching model for Git. It has attracted a lot of attention because it is very well suited to collaboration and scaling the development team, here are its main branch concepts:
+
+* `feature` branch: This used for new development and non-emergency bug fixes
+     ```shell
+     git checkout -b feature/my-feature master
+     ```
+* `develop` branch: The develop branch used only by us to tracks new features
+* `release` branch: When it is time to make a release, a release branch is created off of develop
+* `hotfix` branch: You can use these to make an emergency change
+     ```shell
+     git checkout -b feature/my-feature master
+     ```
+* `master` branch: The master branch used by us to track released code only
+
+![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
+
 Before you submit your Pull Request (PR) consider the following guidelines:
 
 * Search [https://github.com/fresh-innovate/HCLC-Portal/pulls) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
-* Make your changes in a new git branch:
+* Make your changes in a new git branch (`use the right branch either hotfix or feature branch`) :
 
      ```shell
-     git checkout -b my-fix-branch master
+     git checkout -b hotfix/my-fix-issue master
      ```
 
 * Create your patch, **including appropriate test cases**.
@@ -179,10 +196,10 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 * Push your branch to GitHub:
 
     ```shell
-    git push origin my-fix-branch
+    git push origin hotfix/my-fix-issue
     ```
 
-* In GitHub, send a pull request to `angular:master`.
+* In GitHub, send a pull request to `hclc-portal:master`.
 * If we suggest changes then:
   * Make the required updates.
   * Re-run the Hackney Portal test suites for JS and Dart to ensure tests are still passing.
@@ -203,7 +220,7 @@ from the main (upstream) repository:
 * Delete the remote branch on GitHub either through the GitHub web UI or your local shell as follows:
 
     ```shell
-    git push origin --delete my-fix-branch
+    git push origin --delete hotfix/my-fix-issue
     ```
 
 * Check out the master branch:
@@ -215,7 +232,7 @@ from the main (upstream) repository:
 * Delete the local branch:
 
     ```shell
-    git branch -D my-fix-branch
+    git branch -D hotfix/my-fix-issue
     ```
 
 * Update your master with the latest upstream version:
@@ -223,14 +240,6 @@ from the main (upstream) repository:
     ```shell
     git pull --ff upstream master
     ```
-
-### GitFlow
-As organisation we have strong preference for Agile methodologies.  We believe that is very well suited to collaboration and scaling the development team.
-
-#### Collaboration
-Feature branches make life easier for developers to collaborate on the same feature, because each feature branch is a sandbox where the only changes are the changes necessary to get the new feature working. That makes it very easy to see and follow what each collaborator is doing.
-
-![alt tag](https://raw.githubusercontent.com/benhallouk/demo-2/master/src/workflow.png)
 
 [html-css-style-guide]: https://google.github.io/styleguide/htmlcssguide.xml
 [js-style-guide]: https://google.github.io/styleguide/javascriptguide.xml
